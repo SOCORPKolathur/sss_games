@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "441410358956",
+    "project_id": "sssgames",
+    "storage_bucket": "sssgames.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:441410358956:android:9f4ae9c333c5b3666d9909",
+        "android_client_info": {
+          "package_name": "com.example.sss_games"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "441410358956-3m8ha2majn8qhnjr3lgf535k46u5v67f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyANtPatv5en6oC-0mB7Tx__PqaxRXnQTq4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "441410358956-3m8ha2majn8qhnjr3lgf535k46u5v67f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
