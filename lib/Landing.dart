@@ -21,6 +21,7 @@ class MyHomePage extends StatefulWidget {
   _MyHomePageState createState() => _MyHomePageState();
 }
 
+
 class _MyHomePageState extends State<MyHomePage> {
 
 
@@ -69,7 +70,6 @@ class _MyHomePageState extends State<MyHomePage> {
   String bettindid="";
 
    generateid(){
-
   setState(() {
     bettindid=randomAlphaNumeric(16);
 
@@ -78,14 +78,6 @@ class _MyHomePageState extends State<MyHomePage> {
    print(bettindid);
 
   }
-
-
-  @override
-  void initState() {
-
-
-  }
-
 
   final _firestore=FirebaseFirestore.instance;
 
@@ -144,6 +136,7 @@ class _MyHomePageState extends State<MyHomePage> {
                                      });
 
                                      listClick(com);
+
                                      countdownfunction("40");
 
 

@@ -92,6 +92,7 @@ class _OTPState extends State<OTP> {
                                   "name":"none",
                                   "user id":FirebaseAuth.instance.currentUser!.uid,
                                  "Timecstamp":DateTime.now().microsecondsSinceEpoch,
+                                 "active":false,
                                 });
                             Get.to(Stream2());
                           }
